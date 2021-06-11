@@ -1,0 +1,12 @@
+n = int(input())
+
+n1, n2 = 0, 1
+count = 0
+
+print(n1)
+while(count < n-1):
+  print(n2)
+  temp = n1
+  n1 = n2
+  n2 = n2+temp
+  count += 1
